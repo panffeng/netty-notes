@@ -5,4 +5,4 @@
 > operations, for example reading or writing. 
 
 ## Channel state
-A channel with netty has an internal state representing the lifecyle. Those states include registered channel, active channel, inactive channel and unregistered channel.
+A channel with netty has an internal state representing the lifecyle. Those states include registered channel, active channel, inactive channel and unregistered channel with respect to Channel Handlers in the ChannelPipeline.
